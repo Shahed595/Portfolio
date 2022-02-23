@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Ema John",
+    "image": "https://i.ibb.co/5xTCzQD/e-commerce.jpg",
+    "description": "This is an E-Commerce website"
+  },
+  {
+    "title": "Medical Service",
+    "image": "https://i.ibb.co/bP18fkG/education.jpg",
+    "description": "This is a Medical Service website "
+  },
+  {
+    "title": "E-Education",
+    "image": "https://i.ibb.co/WyV2x4H/healtcare.jpg",
+    "description": "This is a Educational website"
+  }
+]
