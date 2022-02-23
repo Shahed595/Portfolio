@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import { FaReact, FaJava, FaCss3Alt, FaHtml5, FaNodeJs } from "react-icons/fa";
 import { DiJavascript1, DiMongodb } from "react-icons/di";
 import { SiFirebase } from "react-icons/si";
+// import portfolioImages from '../shahedProfile.JPG'
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
           <div className="grid md:grid-cols-1 grid-cols-2 h-screen items-center border-4 md:border-0 border-white transform rotate-12 md:rotate-0 mx-5 z-10 bg-theme">
             <div className="h-1/2">
               <lottie-player
-                src="https://assets4.lottiefiles.com/packages/lf20_kkflmtur.json"
+                src="https://assets9.lottiefiles.com/private_files/lf30_WdTEui.json"
                 background="transparent"
                 speed="1"
                 loop
@@ -172,19 +173,22 @@ const Home = () => {
               ></lottie-player>
             </div>
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold">Hi, Hello, AssalamuAlaikum...
-                <hr/>
+              <h1 className="text-2xl font-bold">
+                Hi, Hello, AssalamuAlaikum...
+                <hr />
                 <pre className="text-xl md:text-sm my-5 font-mont font-semibold ">
+                  {JSON.stringify(
                     {
-                        JSON.stringify({
-                            name:'Shahed Ahmed',
-                            age:'21',
-                            gender:'Male',
-                            country:'Bangladesh'
-                        },null,2)
-                    }
+                      name: "Shahed Ahmed",
+                      age: "21",
+                      gender: "Male",
+                      country: "Bangladesh",
+                    },
+                    null,
+                    2
+                  )}
                 </pre>
-                </h1>
+              </h1>
             </div>
           </div>
         </div>
